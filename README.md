@@ -26,6 +26,7 @@ git clone https://github.com/Indhuupriya/stripe_integration.git
 cd stripe_integration
 
 ### 2️⃣ Install PHP Dependencies
+```bash
 composer install
 
 ### 3️⃣ Generate Application Key
