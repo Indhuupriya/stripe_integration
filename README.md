@@ -30,10 +30,10 @@ cd stripe_integration
 composer install
 
 ### 3️. Generate Application Key
+Rename .env.example to .env and update the following:
 php artisan key:generate
 
 ### 4️. Configure Environment File
-Rename .env.example to .env and update the following:
 APP_NAME="Laravel Stripe Integration"
 APP_URL=http://127.0.0.1:8000
 
