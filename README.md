@@ -19,7 +19,7 @@ This project demonstrates how to list products, display product details, and pro
 - **Payment Gateway:** Stripe (Laravel Cashier)  
 - **Frontend:** Blade Templates, Bootstrap  
 - **Package Manager:** Composer & NPM
-- 
+
 ### Package Installation steps
 ```bash
 ### 1️. Clone Repository
