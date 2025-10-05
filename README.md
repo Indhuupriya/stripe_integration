@@ -50,7 +50,8 @@ STRIPE_SECRET=sk_test_xxxxxxxxxxxxxxxxxxxxxx
 https://dashboard.stripe.com/test/apikeys
 
 ### 5. Run Database Migrations and Seeders
-php artisan migrate --seed
+php artisan migrate
+php artisan db:seed
 
 ### 6️. Install Node Dependencies
 npm install
