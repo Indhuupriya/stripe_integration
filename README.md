@@ -20,13 +20,13 @@ This project demonstrates how to list products, display product details, and pro
 - **Frontend:** Blade Templates, Bootstrap  
 - **Package Manager:** Composer & NPM
 - 
-### 1️⃣ Clone Repository
+### Package Installation steps
 ```bash
+### 1️⃣ Clone Repository
 git clone https://github.com/Indhuupriya/stripe_integration.git
 cd stripe_integration
 
 ### 2️⃣ Install PHP Dependencies
-```bash
 composer install
 
 ### 3️⃣ Generate Application Key
