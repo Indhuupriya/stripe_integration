@@ -22,17 +22,17 @@ This project demonstrates how to list products, display product details, and pro
 - 
 ### Package Installation steps
 ```bash
-### 1️⃣ Clone Repository
+### 1️. Clone Repository
 git clone https://github.com/Indhuupriya/stripe_integration.git
 cd stripe_integration
 
-### 2️⃣ Install PHP Dependencies
+### 2️. Install PHP Dependencies
 composer install
 
-### 3️⃣ Generate Application Key
+### 3️. Generate Application Key
 php artisan key:generate
 
-### 4️⃣ Configure Environment File
+### 4️. Configure Environment File
 Rename .env.example to .env and update the following:
 APP_NAME="Laravel Stripe Integration"
 APP_URL=http://127.0.0.1:8000
@@ -46,17 +46,17 @@ DB_PASSWORD=
 
 STRIPE_KEY=pk_test_xxxxxxxxxxxxxxxxxxxxxx
 STRIPE_SECRET=sk_test_xxxxxxxxxxxxxxxxxxxxxx
-⚠️ Note: You can create your test API keys at
-<a href="https://dashboard.stripe.com/test/apikeys">API keys</a>
+ Note: You can create your test API keys at
+https://dashboard.stripe.com/test/apikeys
 
-###5️⃣ Run Database Migrations and Seeders
+### 5. Run Database Migrations and Seeders
 php artisan migrate --seed
 
-###6️⃣ Install Node Dependencies
+### 6️. Install Node Dependencies
 npm install
 npm run dev
 
-###7️⃣ Start the Development Server
+### 7️. Start the Development Server
 php artisan serve
 Visit → http://127.0.0.1:8000
 
